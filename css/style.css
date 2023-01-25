@@ -1,0 +1,105 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+}
+
+.site-header{
+width: 100%;
+height: 100vh;
+background: linear-gradient(57deg, #00c6a7, #1e4d92);
+clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
+
+}
+
+nav{
+display: flex;
+border: solid 1px white;
+width: 100%;
+height: 15vh;
+}
+.logo{
+  padding: 20px;
+  border: solid 1px white;
+}
+.logo h1{
+background: #00c6a7;
+
+
+
+}
+
+.menu{
+width:90%;
+height: 100vh;
+}
+
+.menu ul{
+display: flex;
+justify-content: space-around;
+text-transform: capitalize;
+list-style: none;
+padding-top: 40px;
+align-items: center;
+color: aliceblue;
+
+}
+section{
+display: flex;
+
+}
+
+
+.left-side img{
+width:85%;
+height:100vh;
+
+}
+
+.right-side{
+    color: azure;
+text-align: center;
+margin-top:120px;
+width:60%;
+height: 300px;
+padding-right:100px;
+
+
+
+}
+
+.right-side h1{
+font-size: 50px;
+text-transform: uppercase;
+}
+
+.right-side p{
+font-size: 1.1rem;
+padding: 30px;
+}
+
+.right-side button{
+font-size: 17px;
+font-weight: bold;
+color: white;
+text-transform: uppercase;
+background: linear-gradient(57deg, #00c6a7, #1e4d92);
+border-radius: 4px;
+padding:20px 35px;
+cursor: pointer;
+border: solid 1px rgb(249, 248, 250);
+}
+
+.right-side button:hover{
+ background: linear-gradient(57deg, #1e4d92, #00c6a7);
+color: blue;
+border: solid 1px rgb(112, 7, 240);
+}
+
+
+
+
+
+
+
